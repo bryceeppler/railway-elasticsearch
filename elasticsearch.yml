@@ -6,10 +6,3 @@ xpack.security.enabled: "true"
 xpack.security.enrollment.enabled: "false"
 node.store.allow_mmap: "false" # disable nmap
 network.host: 0.0.0.0
-
-# Enable anonymous access
-xpack.security.authc:
-  anonymous:
-    username: anonymous_user
-    roles: anonymous_role
-    authz_exception: true
